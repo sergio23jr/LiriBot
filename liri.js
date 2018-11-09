@@ -24,7 +24,7 @@ const bandsAPI = keys.bands.id
 const choice = process.argv[2];
 
 // variable holds the user value for whatever function they call
-const name = process.argv[3];
+const name = process.argv.slice(3).join(" ");
 
 // switch case to determine what functions to run depending on user
 switch (choice) {
