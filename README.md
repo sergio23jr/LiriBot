@@ -70,6 +70,8 @@ OMDB_API = <Your API key>
 
      * Date of the Event (use moment to format this as "MM/DD/YYYY")
      
+ ![Demo](https://github.com/sergio23jr/LiriBot/blob/master/images/Concert-this.png)
+     
  2.`node liri.js spotify-this-song '<song name here>'`
 
    * This will show the following information about the song in your terminal/bash window
@@ -81,6 +83,7 @@ OMDB_API = <Your API key>
      * A preview link of the song from Spotify
 
      * The album that the song is from
+  ![Demo](https://github.com/sergio23jr/LiriBot/blob/master/images/spotify-this-song.png)
      
  3. `node liri.js movie-this '<movie name here>'`
 
@@ -96,9 +99,12 @@ OMDB_API = <Your API key>
        * Plot of the movie.
        * Actors in the movie.
      ```
+  ![Demo](https://github.com/sergio23jr/LiriBot/blob/master/images/Movie-this.png)
      
 4. `node liri.js do-what-it-says`
 
    * LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
 
      * It should run `spotify-this-song` for "I Want it That Way," as follows the text in `random.txt`.
+     
+ ![demo](https://github.com/sergio23jr/LiriBot/blob/master/images/default.png)
